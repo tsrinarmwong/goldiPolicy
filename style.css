@@ -1,0 +1,110 @@
+body {
+    background-color: #fff8d9; /* Light yellow background */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Darker text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000; /* Bold black for headings */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p, input, button {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #E6A53E; /* Light orange matching header */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d8941d; /* Darker shade for hover */
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #E6A53E; /* Focused input border matches button */
+    outline: none;
+}
+
+header {
+    background-color: #E6A53E; /* Light orange header */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    background-color: #E6A53E; /* Footer in same orange */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    padding-top: 70px; /* To adjust for the fixed header */
+    padding-bottom: 50px; /* To adjust for the fixed footer */
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #E6A53E;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
